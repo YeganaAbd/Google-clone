@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+}
+
+#nav {
+  display: flex;
+  margin-top: 20px;
+  color: rgb(43, 42, 42);
+  font-size: 14px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#nav a {
+  margin-right: 15px;
+}
+
+#nav .user {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+#nav .leftlink {
+  margin-right: auto;
+  display: inline-flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+#nav .rightlink {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.logoImg {
+  height: 150px;
+  width: 210px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(211, 205, 205);
+  border-radius: 2rem;
+  width: 550px;
+  height: 45px;
+}
+
+.searchContainer:hover {
+  box-shadow: 2px 2px 8px 2px rgb(211, 205, 205);
+}
+
+.searchBtn {
+  border: none;
+  margin: 10px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(126, 122, 122);
+}
+.searchInput {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  display: flex;
+  flex: 100%;
+}
+
+.voice {
+  height: 20px;
+  width: 15px;
+  margin: 10px 20px;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.buttons {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.button {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  border: 0px solid rgb(211, 205, 205);
+  background-color: rgba(247, 243, 243, 0.87);
+  color: rgb(54, 53, 53);
+  font-size: 14px;
+  line-height: 2;
+  margin: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 1px solid rgb(211, 205, 205);
+}
